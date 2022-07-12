@@ -1,6 +1,6 @@
 # Boardgame_Geek
 
-## Sources & Tools
+## Sources
 
 Using data from these sources:
 
@@ -8,8 +8,17 @@ https://www.kaggle.com/datasets/jvanelteren/boardgamegeek-reviews?resource=downl
 
 https://raw.githubusercontent.com/beefsack/bgg-ranking-historicals/master/2019-05-02.csv
 
+Resource folder added to gitignore as files are too large to upload. Using .csv files:
+ - 2022-01-08
+ - games_detailed_info
+ - 2019-05-02.csv
+ 
+## Tools
+
  - Jupyter Notebook
  - PostgreSQL
+ - Tableau
+ - Plotly
  
  ## Summary
  
