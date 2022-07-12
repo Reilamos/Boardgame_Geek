@@ -1,0 +1,35 @@
+-- Creating tables for BoardgameDB
+CREATE TABLE BGName (
+     ID VARCHAR(6) NOT NULL,
+     Name VARCHAR(100) NOT NULL,
+     PRIMARY KEY (ID),
+     UNIQUE (Name)
+);
+
+CREATE TABLE BGData (
+	 ID INT NOT NULL,
+	 Year INT NOT NULL,
+     Rank INT NOT NULL,
+     Average INT NOT NULL,
+     Bayes_average INT NOT NULL,
+     Users_rated INT NOT NULL,
+     PRIMARY KEY (ID)
+);
+
+CREATE TABLE BGInfo (
+	 ID INT NOT NULL,
+	 Board_Game_Rank INT NOT NULL,
+     Strategy_Game_Rank INT NOT NULL,
+     Family_Game_Rank INT NOT NULL,
+     title VARCHAR(50) NOT NULL,
+     minplayers INT NOT NULL,
+	 maxplayers INT NOT NULL,
+	 playingtime INT NOT NULL,
+	 minplaytime INT NOT NULL,
+	 maxplaytime INT NOT NULL,
+	 minage INT NOT NULL,
+	 boargamecategory VARCHAR(50) NOT NULL,
+     PRIMARY KEY (ID)
+);
+
+SELECT * FROM bginfo;
