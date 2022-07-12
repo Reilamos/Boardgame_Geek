@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/beefsack/bgg-ranking-historicals/master/2019-0
  
  Exploring the boardgame data to find the most popular among families using ranking data, age, time, and weight.
  
- ##
+ ### Visualizations 
  
  Tableau Story - Work in Progress:
  
